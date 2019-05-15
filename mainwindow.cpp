@@ -5,7 +5,7 @@
 // initial display value
 int initDisplay = 0;
 
-// Will define if this was the last math button clicked
+// true if button pressed
 bool divTrigger = false;
 bool multTrigger = false;
 bool addTrigger = false;
@@ -13,7 +13,7 @@ bool subTrigger = false;
 bool modTrigger = false;
 
 // Constructor
-Main::Calc(QWidget *parent) :
+mainwindow::Calc(QWidget *parent) :
 
     // Call the QMainWindow constructor
     QMainWindow(parent),
